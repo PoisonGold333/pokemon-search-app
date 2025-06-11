@@ -52,3 +52,5 @@ export function Home() {
     </div>
   );
 }
+
+export { Home as Component };

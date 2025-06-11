@@ -19,3 +19,5 @@ export default function ErrorPage() {
     </div>
   );
 }
+
+export { ErrorPage as Component };

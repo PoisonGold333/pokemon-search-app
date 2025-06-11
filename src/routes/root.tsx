@@ -13,3 +13,5 @@ export function Root() {
     </div>
   );
 }
+
+export { Root as Component };

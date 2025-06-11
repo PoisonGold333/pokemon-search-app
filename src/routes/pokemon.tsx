@@ -4,7 +4,7 @@ import { PokemonCard } from '../components/PokemonCard';
 import { searchPokemon } from '../services/pokemonApi';
 import { Pokemon } from '../types/pokemon';
 
-export async function pokemonLoader({ params }: { params: any }) {
+export async function loader({ params }: { params: any }) {
   const { nameOrId } = params;
   
   try {
@@ -59,3 +59,5 @@ export function PokemonDetails() {
     </div>
   );
 }
+
+export { PokemonDetails as Component };
